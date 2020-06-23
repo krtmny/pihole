@@ -20,5 +20,5 @@ sudo nano crontab -e
 # update ip-blacklist.txt everyday at 0430
 30 4  * * *   /opt/utils/ipblacklist.sh
 # updates underlying raspbianpi os on 5th of everymonth at 0310
-10 3   5 * *    /opt/utils/update.sh
+10 3  5 * *   /opt/utils/update.sh
 ```
