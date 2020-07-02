@@ -22,3 +22,11 @@ sudo nano crontab -e
 # updates underlying raspbianpi os on 5th of everymonth at 0310
 10 3  5 * *   /opt/utils/update.sh
 ```
+
+helpful regex list:
+> https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list 
+> https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/amp.list 
+> https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/internationalized%20domains.list 
+> https://raw.githubusercontent.com/mmotti/pihole-regex/master/user%20suggested/first-party%20trackers.list 
+> https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/regex.list 
+> https://raw.githubusercontent.com/llacb47/mischosts/master/social/tiktok-regex.list
