@@ -15,16 +15,17 @@ Scripts for update for iplist (dnscrypt-proxy) and update underlying raspbian os
 
 Crontab sample to use for scripts:
 ```sh
-# create crontab for root user
+# create or update crontab for root user
 sudo crontab -u root -e
-or
-sudo nano crontab -e
-# for raspberry
-crontab -e
-# update ip-blacklist.txt everyday at 0430
-30 4  * * *   /opt/utils/ipblacklist.sh
-# updates underlying raspbianpi os on 5th of everymonth at 0310
-10 3  5 * *   /opt/utils/update.sh
+
+# updates underlying OS  on 5th of everymonth at 0310
+10 3  5 * *    /opt/utils/update.sh
+
+# update blacklist in /opt/dnscrypt-proxy everyday at 0645
+45 6  * * *   /opt/utils/blacklist.sh
+
+# update ip-blacklist in /opt/dnscrypt-proxy everyday at 0715
+15 7  * * *   /opt/utils/ipblacklist.sh
 ```
 
 helpful regex list:
