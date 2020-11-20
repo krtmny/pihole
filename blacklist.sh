@@ -13,12 +13,12 @@ FILE="${INSTALL_DIR}/${IP_FILE}"
 if [ "$(whoami)" != "root" ]; then
         echo "Script doesn't have permission. Run with sudo or as root, please."
 else
-        if curl --output /dev/null --silent --head --fail "$IPLIST_URL"; then
+        if curl -L --output /dev/null --silent --head --fail "$IPLIST_URL"; then
                 if [ -f "$FILE" ]; then
                         mv -f "${FILE}" "${FILE}.old"
                 fi
 
-                if curl "$IPLIST_URL" --output "$FILE" --silent; then
+                if curl -L "$IPLIST_URL" --output "$FILE" --silent; then
                         rm -f "${FILE}.old"
                         echo "blacklist updated."
                         cd "$INSTALL_DIR"
