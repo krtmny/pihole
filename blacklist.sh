@@ -1,8 +1,5 @@
 #! /bin/sh
 
-# More information found here:
-# https://github.com/notracking/hosts-blocklists 
-
 # These are the default values, only adjust if it's different for your system
 IPLIST_URL="https://github.com/notracking/hosts-blocklists/raw/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt"
 INSTALL_DIR="/opt/dnscrypt-proxy"
