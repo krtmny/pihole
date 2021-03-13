@@ -26,9 +26,7 @@
 ## The proxy will automatically pick the fastest, working servers from the list.
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
-# server_names=['cloudflare', 'dnscrypt.eu-dk', 'opennic-R4SAS', 'skyfighter-dns', 'scaleway-ams', 'dnscrypt.eu-nl', 'ibksturm']
-server_names=['soltysiak', 'dnslify-doh', 'ams-doh-nl', 'dnscrypt.eu-dk', 'opennic-R4SAS', 'scaleway-ams', 'skyfighter-dns', 'meganerd', 'ams-dnscr
-ypt-nl','cloudflare']
+server_names=['cloudflare', 'dnscrypt.pl', 'ams-doh-nl', 'dnscrypt.eu-dk', 'scaleway-ams', 'meganerd']
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
 ## Example with both IPv4 and IPv6:
@@ -659,15 +657,6 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 #    { server_name='example-server-1', via=['anon-example-1', 'anon-example-2'] },
 #    { server_name='example-server-2', via=['sdns://gRIxMzcuNzQuMjIzLjIzNDo0NDM'] }
 # ]
-
-#routes = [
-#  { server_name='dnscrypt.eu-dk', via=['anon-scaleway', 'anon-ibksturm'] },
-#  { server_name='opennic-R4SAS', via=['anon-skyfighter', 'anon-dnscrypt.one'] },
-#  { server_name='skyfighter-dns', via=['anon-kama', 'anon-cs-ams'] },
-#  { server_name='scaleway-ams', via=['anon-ibksturm', 'anon-dnscrypt.one'] },
-#  { server_name='dnscrypt.eu-nl', via=['anon-ibksturm', 'anon-skyfighter'] },
-#  { server_name='ibksturm', via=['anon-skyfighter', 'anon-scaleway'] }
-#]
 
 ## Optional, local, static list of additional servers
 ## Mostly useful for testing your own servers.
