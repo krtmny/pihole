@@ -179,8 +179,7 @@ tls_disable_session_tickets = false
 ## Keep tls_cipher_suite empty if you have issues fetching sources or
 ## connecting to some DoH servers. Google and Cloudflare are fine with it.
 
-# tls_cipher_suite = [52392, 49199]
-
+tls_cipher_suite = [52392, 49199]
 
 ## Fallback resolver
 ## This is a normal, non-encrypted DNS resolver, that will be only used
@@ -330,7 +329,7 @@ cache_size = 4096
 
 ## Minimum TTL for cached entries
 
-cache_min_ttl = 600
+cache_min_ttl = 2400
 
 
 ## Maximum TTL for cached entries
