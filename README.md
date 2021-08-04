@@ -41,6 +41,5 @@ helpful adblocking sites
 > hblock: https://hblock.molinero.dev/hosts_adblock.txt
 > goodbyeads: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt
 > 1hosts: https://badmojr.github.io/1Hosts/Lite/adblock.txt
-> DeveloperDan: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 > Torrent Websites: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-websites.txt
 > Torrent Trackers: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
