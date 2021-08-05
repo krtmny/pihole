@@ -29,26 +29,29 @@ sudo crontab -u root -e
 ```
 
 helpful regex list:
-> https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list 
-> https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/amp.list 
-> https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/internationalized%20domains.list 
-> https://raw.githubusercontent.com/mmotti/pihole-regex/master/user%20suggested/first-party%20trackers.list 
-> https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/regex.list 
-> https://raw.githubusercontent.com/llacb47/mischosts/master/social/tiktok-regex.list
+* https://raw.githubusercontent.com/mmotti/pihole-regex/master/regex.list 
+* https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/amp.list 
+* https://raw.githubusercontent.com/mmotti/pihole-regex/master/miscellaneous/internationalized%20domains.list 
+* https://raw.githubusercontent.com/mmotti/pihole-regex/master/user%20suggested/first-party%20trackers.list 
+* https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/regex.list 
+* https://raw.githubusercontent.com/llacb47/mischosts/master/social/tiktok-regex.list
 
-helpful adblocking sites
-> OISD:  https://abp.oisd.nl/
-> hblock: https://hblock.molinero.dev/hosts_adblock.txt
-> goodbyeads: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt
-> 1hosts: https://badmojr.github.io/1Hosts/Lite/adblock.txt
-> Torrent Websites: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-websites.txt
-> Torrent Trackers: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
+helpful adblocking sites(adguard home format):
+* Adguard DNS Filter: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+* goodbyeads: https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt
+* hblock: https://hblock.molinero.dev/hosts_adblock.txt
+* Combined Privacy Block List: https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/newhosts-final-Dual.hosts
+* DeveloperDan: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+* 1hosts: https://badmojr.github.io/1Hosts/Lite/adblock.txt
+* Torrent Websites: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-websites.txt
+* Torrent Trackers: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
+* OISD:  https://abp.oisd.nl/
 
-secure dns over dot
-> dns.digitale-gesellschaft.ch:853 (https://www.digitale-gesellschaft.ch/dns/)
-> dot.ffmuc.net  (https://ffmuc.net/)
-> https://anycast.uncensoreddns.org/dns-query (https://blog.uncensoreddns.org/dns-servers/)
+secure dns over dot:
+* dns.digitale-gesellschaft.ch:853 (https://www.digitale-gesellschaft.ch/dns/)
+* dot.ffmuc.net  (https://ffmuc.net/)
+* https://anycast.uncensoreddns.org/dns-query (https://blog.uncensoreddns.org/dns-servers/)
 
-public dns over dot
-> tls://1dot1dot1dot1.cloudflare-dns.com
-> tls://dns.google
+public dns over dot:
+* tls://1dot1dot1dot1.cloudflare-dns.com
+* tls://dns.google
