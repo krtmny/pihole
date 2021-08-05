@@ -43,3 +43,12 @@ helpful adblocking sites
 > 1hosts: https://badmojr.github.io/1Hosts/Lite/adblock.txt
 > Torrent Websites: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-websites.txt
 > Torrent Trackers: https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
+
+secure dns over dot
+> dns.digitale-gesellschaft.ch:853 (https://www.digitale-gesellschaft.ch/dns/)
+> dot.ffmuc.net  (https://ffmuc.net/)
+> https://anycast.uncensoreddns.org/dns-query (https://blog.uncensoreddns.org/dns-servers/)
+
+public dns over dot
+> tls://1dot1dot1dot1.cloudflare-dns.com
+> tls://dns.google
